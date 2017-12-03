@@ -1,12 +1,6 @@
 @font-face {
   font-family: 'Kollektif';
-  src: url('https://www.dropbox.com/s/ddg9wj0rjz7o4y7/Kollektif-Bold.ttf?raw=1')
-}
-
-@-moz-document url-prefix() {
-  body {
-    background : #eff5fa; /* Firefox doesn't like gradients */
-  }
+  src: url(/fonts/Kollektif-Bold.ttf)
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -61,7 +55,7 @@
 }
 
 .time {
-    font-family: 'Kollektif', sans-serif;
+    font-family: Kollektif, sans-serif;
     color : #354591; /* Change the color of the colored font on the page. */
     margin : 5px;
 }
@@ -333,7 +327,7 @@ a:link {
  -moz-border-radius:0 2px 2px 0;
  -webkit-border-radius:0;
  border-radius:0 2px 2px 0;
- min-width:26px;
+ min-width:79px;
  color:#999;
  font-size:1.25em;
  padding:0 .64em;
