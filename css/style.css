@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Kollektif';
-  src: url(/fonts/Kollektif-Bold.ttf)
+    font-style: bold;
+  src: local('Kollektif-Bold'), local('Kollektif'), url(fonts/Kollektif-Bold.ttf) format('ttf');
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
